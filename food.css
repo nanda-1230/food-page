@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,300&family=Poppins:ital,wght@0,100;0,200;0,600;0,700;1,100;1,300;1,600&family=Raleway:wght@300&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ /* header css  */
+
+.header
+{
+    width:100%;
+    padding:30px 12%;
+    background-color: #fffbfb;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:-10px;
+    font-family: 'poppins';
+    font-weight: bold;
+    color: black;
+}
+.header-left
+{
+    width:25%;
+    /* background-color: yellow; */
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.header-right
+{
+    width:25%;
+    /* background-color:blue; */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+/* header logo css  */
+.main-logo
+{
+    width:100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.circle
+{
+    width:65px;
+    height:65px;
+    background-color:#fffbfb;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-30px;
+}
+
+.circle p
+{
+    font-weight: bold;
+    margin-bottom:5px;
+    font-size: 15px;
+    font-family: 'poppins';
+}
+.banner
+{
+    width:100%;
+    height:550px;
+    /* background-color: red; */
+    background-image: url('https://cdn.pixabay.com/photo/2013/02/21/19/12/barbecue-84671_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9; 
+   
+}
+
+.banner-content
+{
+    width:20%;
+    padding:20px 10px;
+    /* background-color: white; */
+    position: absolute;
+    top:32%;
+    left:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-content h1
+{
+    font-size:35px;
+    font-weight: bold;
+    font-family: 'poppins';
+    color:white
+}
+.btn
+{
+    padding: 15px 10px;
+    width:12%;
+    position: absolute;
+    top:65%;
+    left:45%;
+    border: 1px solid red;
+    font-family: 'poppins';
+    font-weight: 600;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* international foods css section  */
+
+.international-food
+{
+    width:100%;
+    height:600px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-inter
+{
+    width:100%;
+    height: 100%;
+    background-color:#fdefed;
+    display: flex;
+    column-gap: 60px;
+}
+.international-1
+{
+    width:30%;
+    padding: 0px 30px;
+    /* background-color: green; */
+    height:100%; 
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+.international-1 h1
+{
+    font-family: 'poppins';
+    font-size:35px;
+    color: #EA583F;
+}
+.international-1 p
+{
+    font-size:19px;
+    font-family: 'poppins';
+    font-weight: 600;
+    color: black;
+}
+.inter-btn
+{
+    padding: 20px 30px;
+    width:50%;
+    color: #EA583F;
+    background-color: black;
+    border: 1px solid #EA583F;
+    cursor: pointer;
+    border:1px solid red;
+}
+
+.international-2
+{
+    width:28%;
+    /* background-color: blue; */
+    height:100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.international-2 img
+{
+    width:100%;
+    height:400px;
+    margin-top:35px;
+
+}
+.international-3
+{
+    width:25%;
+    /* background-color:yellow; */
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.inter-3-img
+{
+    height:30%;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.inter-3-img img
+{
+    width:100%;
+    height: 100%;
+    margin-top: 10px;
+}
+.inter-3-2-img
+{
+    height:65%;
+    width:100%;
+    /* background-color:lightblue ; */
+    overflow: hidden;
+}
+.inter-3-2-img img
+{
+    width:100%;
+}
+
+/* day-food-area  */
+
+.food-area
+{
+    width:100%;
+    height: 550px;
+    /* background-color: green; */
+}
+.h1-food
+{
+    font-family: 'poppins';
+    text-align: center;
+    font-size: 35px;
+}
+.main-food-area
+{
+    width:100%;
+    height:395px;
+    padding:20px 5%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+.main-food
+{
+    width:20%;
+    height: 400px;
+    /* background-color: red; */
+    position: relative;
+}
+.main-food-content
+{
+    width:100%;
+    height: 100%;
+    /* background-color: purple; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    row-gap: 10px;
+    padding:80px 20px;
+   
+    
+}
+.main-food-content p
+{
+    font-family: 'poppins';
+    background-color: #EA583F;
+    width:max-content;
+    color:white;
+    font-size:18px;
+    font-weight: bold;
+}
+.main-food-content h1
+{
+    color:black;
+    background-color:#cccccc;
+    opacity: .7;
+    font-weight: bold;
+    font-family: 'poppins';
+}
+.food-image
+{
+    width:100%;
+    height:400px;
+    overflow: hidden;
+    /* opacity: .9;  */
+    /* background-color: black; */
+}
+
+.food-image img
+{
+    width: 100%;
+    /* opacity: .8; */
+    
+}
+
+.food-buttons
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 20px;
+   
+}
+
+.food-btn-1,.food-btn-2
+{
+    width:10%;
+    padding:15px 16px;
+    margin-top: 55px;
+    background-color: black;
+    color: white;
+    font-family: 'poppins';
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* menu section css  */
+.menu-section
+{
+    width:100%;
+    height: 110vh;
+    padding: 20px 10%;
+    margin-top: 50px;
+    /* background-color: blue; */
+}
+.main-section
+{
+    width:100%;
+    height:100vh;
+    background-color:#fdefed;
+}
+.main-section h1
+{
+    font-family: 'poppins';
+    text-align: center;
+}
+.menus
+{
+    width:80%;
+    height:80px;
+    padding:0px 10%;
+    margin-top:25px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+    align-items: center;
+    margin-left:120px;
+}
+.menu
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    row-gap: 20px;
+}
+.menu i
+{
+    font-size:35px;
+    color: black;
+}
+.menu p
+{
+    font-family: 'poppins';
+    font-size: 12px;
+    font-weight: 600;
+    color:#EA583F;
+}
+.menu-offers
+{
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    /* background-color: aqua; */
+    padding:10px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fish-burger
+{
+    width:49.5%;
+    height: 410px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.turkey-burger
+{
+    width:49.5%;
+    height: 410px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lists
+{
+    width:100%;
+    height:130px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-img
+{
+    width:20.5%;
+    height:120px;
+    padding:10px 8px;
+    /* background-color: red; */
+}
+.menu-img img
+{
+    width:100%;
+    margin-top:10px;
+   
+}
+.menu-content
+{
+    width:78.5%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+    padding: 20px 0px;
+}
+.menu-content span
+{
+    color:#EA583F;
+}
+.menu-content h3
+{
+    font-family: 'poppins';
+}
+.menu-content p
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.burger-btn
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.butn
+{
+    width:10%;
+    padding: 10px 10px;
+    font-family: 'poppins';
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* map section css  */
+
+.map
+{
+    width:100%;
+    height:500px;
+    padding: 20px 10%;
+    /* background-color: red; */
+}
+.map-section
+{
+    width:100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap:40px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.map-section h1
+{
+    font-family: 'poppins';
+}
+.map-section p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.map-section iframe
+{
+    width:80%;
+    height:60%;
+}
+
+/* footer section css  */
+.footer
+{
+    width:100%;
+    height:700px;
+    padding:5% 10%;
+    background-color: black;
+    
+}
+.main-footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+.special-offers
+{
+    width:33%;
+    height:280px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.vertical-line
+{
+    width:3px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: gray;
+}
+.delivery
+{
+    width:33%;
+    height:350px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.pizza
+{
+    font-size:65px;
+    color: #ea583f;
+}
+.sp-head
+{
+    font-family: 'poppins';
+    font-size: 30px;
+    color: white;
+}
+.special-offers p,.delivery p
+{
+    font-family: 'poppins';
+    font-size: 20px;
+    color: #6c6c6c;
+    font-weight:bold;
+    word-spacing:10px;
+    text-align: center;
+}
+#para-sp
+{
+    font-weight: 700;
+    color: #ea583f; 
+  
+}
+
+.social-info
+{
+    width:40%;
+    height: 50px;
+    /* background-color: red; */
+    margin-top:45px;
+    margin-left:28%;
+    
+    
+   
+}
+.socials
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap:25px;
+}
+.socials i
+{
+    font-size: 30px;
+    color: white;
+}
+.navigation
+{
+    width:85%;
+    margin-top: 50px;
+    height:60px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'poppins';
+    font-weight: bold;
+    color: white;
+    margin-left:35px;
+}
+.copy
+{
+    color: #6c6c6c;
+    margin-top: 10px;
+    margin-left: 13%;
+}
