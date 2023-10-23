@@ -614,3 +614,311 @@
     margin-top: 10px;
     margin-left: 13%;
 }
+
+/* responsive css  */
+@media (max-width:560px) {
+
+    .header
+    {
+        padding:20px 10%;
+    }
+    .header-left p ,.header-right p
+    {
+        font-size:14px;
+    }
+    .banner
+    {
+        width:100%;
+        height:200px;
+        background-size:100%;
+        opacity:.9;
+        
+    }
+    .circle
+    {
+        width:50px;
+        height:50px;
+        margin-top: -28px;
+    }
+    .circle p
+    {
+        font-weight: bolder;
+        font-size: 10px;
+        margin-top: 12px;
+    }
+    .banner-content
+    {
+        left:34%;
+        top: unset;
+        width: max-content;
+    }
+    .banner-content h1
+    {
+        font-size:15px;
+    }
+    .btn
+    {
+        padding: 5px 5px;
+        width:15%;
+        top: 28%;
+        left:42%;
+        font-size:8px;
+    }
+    .main-inter
+    {
+        column-gap: 5px;
+    }
+    .international-2
+    {
+        display: none;
+    }
+    .international-food 
+    {
+        height:450px;
+        padding: 20px 10px;
+    }
+    .international-1 
+    {
+        width:50%;
+        padding:0px 20px;
+        row-gap: 10px;
+    }
+    .international-1 h1
+    {
+        font-size: 20px;
+    }
+    .international-1 p
+    {
+        font-size: 9px;
+    }
+    .inter-btn 
+    {
+        padding: 10px 20px;
+        width: auto;
+    }
+    .international-3
+    {
+        width: 40%;
+        margin-top: 55px;
+        margin-right: 20px;
+    }
+    .inter-3-img
+    {
+        height: 25%;
+    }
+    .inter-3-2-img
+    {
+        height: 70%;
+    }
+    .food-area
+    {
+        width: 100%;
+        height: 350px;
+        
+    }
+    .h1-food
+    {
+        font-size: 20px;
+    }
+    .main-food-area
+    {
+        height: 200px;
+        padding: 10px 10px;
+    }
+    .main-food
+    {
+        width:24%;
+        height: 200px;
+    }
+    .main-food-content p 
+    {
+        font-size: 7px;
+    }
+    .main-food-content h1
+    {
+        font-size: 10px;
+    }
+    .main-food-content
+    {
+        margin-top:58px;
+        row-gap: 5px;
+        padding: 80px 0px;
+    }
+    .food-image img 
+    {
+        height: 200px;
+    }
+    .food-buttons
+    {
+        column-gap: 5px;
+    }
+    .food-btn-1, .food-btn-2
+    {
+        width: max-content;
+        padding: 5px 20px;
+        font-size: 12px;
+        font-weight: 500;
+
+    }
+    .menu-section
+    {
+        height: 90vh;
+        padding: 10px 10px;
+        margin-top: 10px;
+    }
+    .main-section
+    {
+        height: 80vh;
+    }
+    .main-section h1
+    {
+        font-size: 20px;
+    }
+    .menus
+    {
+        margin-left: 25px;
+    }
+    .menu i 
+    {
+        font-size: 20px;
+        /* font-weight: 500; */
+    }
+    .menu p 
+    {
+        font-family: sans-serif;
+        font-size: 8px;
+        font-weight: 500;
+    }
+    .menu-offers
+    {
+        height: 300px;
+        margin-top: 10px;
+        padding: 10px 10px;
+    }
+    .lists
+    {
+        height: 120px;
+    }
+    .menu-img
+    {
+        height: 100px;
+        padding: 5px 10px;
+    }
+    .menu-img img 
+    {
+        width: 50px;
+        height: 50px;
+    }
+    .menu-content
+    {
+        width:60%;
+        row-gap: 2px;
+        padding: 10px 0px;
+    }
+    .menu-content h3
+    {
+        font-size: 12px;
+    }
+    .menu-content p
+    {
+        font-family: sans-serif;
+        font-size: 8px;
+    }
+    .fish-burger,.turkey-burger
+    {
+        height: 100%;
+        row-gap: 10px;
+    }
+    .butn
+    {
+        width: auto;
+        padding: 5px;
+        font-size: 8px;
+        margin-top: 40px;
+    }
+    .map
+    {
+        padding: 10px 10px;
+    }
+    .map-section iframe
+    {
+        width: 100%;
+        height: 60%;
+    }
+    .map-section
+    {
+        row-gap: 20px;
+    }
+    .map-section p
+    {
+        font-size: 16px;
+    }
+    .footer
+    {
+        height:390px;
+    }
+    .special-offers 
+    {
+        height: 200px;
+        row-gap: 10px;
+    }
+    .pizza 
+    {
+        font-size: 35px;
+    }
+    .sp-head
+    {
+        font-size: 12px;
+    }
+    .special-offers p
+    {
+        font-size: 10px;
+        word-spacing: 1px;
+    }
+    .vertical-line
+    {
+        height: 210px;
+    }
+    .delivery
+    {
+        height: 200px;
+        row-gap: 10px;
+    }
+    .delivery p
+    {
+        font-size: 12px;
+        word-spacing: 1px;
+    }
+    .social-info
+    {
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+    .socials 
+    {
+        column-gap: 25px;
+        margin-left: 20px;
+    }
+    .socials h2 
+    {
+        font-size: 15px;
+    }
+    .socials i 
+    {
+        font-size: 20px;
+    }
+    .navigation 
+    {
+        column-gap: 10px;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .copy 
+    {
+        font-size: 8px;
+        margin-top: 5px;
+        margin-left: 25%;
+        width: max-content;
+    }
+
+}
